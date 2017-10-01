@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 	$g_path = '';
+	$abc = '';
 ?>
 <html>
 	<head>
