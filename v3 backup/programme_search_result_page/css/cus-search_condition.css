@@ -1,0 +1,46 @@
+.Search_condition_region{
+	border: solid 1px #C6C6C6;
+	border-radius: 14px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.Checkbox_region > div > div > div{
+	padding-bottom: 8px;
+}
+
+.Dropdownbox_region > div > div > div{
+	padding-bottom: 8px;
+}
+
+.Btn_region > div > div > div{
+	padding-bottom: 8px;
+}
+
+.Checkbox_region{
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+
+.Dropdownbox_region{
+	margin-bottom: 10px;
+}
+
+.Btn_region{
+	margin: 0px;
+	margin-bottom: 18px;
+}
+
+.Search_btn{
+	padding: 0px;
+	padding-right: 5px;
+}
+
+.Reset_btn{
+	padding: 0px;
+	padding-right: 5px;	
+}
+
+.Clear_btn{
+	padding: 0px;
+}

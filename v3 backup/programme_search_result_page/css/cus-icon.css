@@ -1,0 +1,77 @@
+.Icon_region{
+	margin: 0px;
+}
+
+.Icon_table{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 4px;
+	border: solid 1px #C6C6C6;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#eaeaea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#eaeaea 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */	
+}
+
+.Icon_table > .row > div{
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.Programme_icon{
+	width: 30px; 
+	height: 30px; 
+	margin: 2px;
+}
+
+@media screen and (min-width: 992px){
+	.Icon_div{
+		float: left; 
+		width: 15%;
+	}
+
+	.Icon_description{
+		float: left; 
+		width: 85%;
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width: 991px){
+	.Icon_div{
+		float: left; 
+		width: 10%;
+	}
+
+	.Icon_description{
+		float: left; 
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 421px) and (max-width: 700px){
+	.Icon_div{
+		float: left; 
+		width: 13%;
+	}
+
+	.Icon_description{
+		float: left; 
+		width: 87%;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.Icon_div{
+		float: left; 
+		width: 18%;
+	}
+
+	.Icon_description{
+		float: left; 
+		width: 82%;
+	}
+}

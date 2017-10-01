@@ -1,0 +1,36 @@
+.Top_subjectarea_region{
+	margin: 0px;
+}
+
+.Top_subjectarea_box{
+	padding: 0px;
+}
+
+.Top_subjectarea_box > a{
+	white-space: pre-wrap;
+}
+
+
+.Top_subjectarea_box > .btn-cus-default{
+	color: #333;
+background: rgb(210,255,82); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(210,255,82,1)), color-stop(100%,rgba(145,232,66,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+	border-color: #ccc;
+	font-size: 14px;
+	border-radius: 0;
+	font-weight: bold;
+}
+
+.Top_subjectarea_box > a:hover,.Top_subjectarea_box > a:focus{
+	color: #333;
+	background-color: #ddd;
+	border-color: rgb(69,121,173);
+	font-size: 14px;
+	border-radius: 0;
+}

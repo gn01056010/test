@@ -1,0 +1,72 @@
+.Pagination_region{
+	margin: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: solid 1px #C6C6C6;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#eaeaea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#eaeaea 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */		
+}
+
+.pg_record_total{
+	color: #0c61a0;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 4px;		
+	padding: 0px;
+}
+
+.pg_count{
+	float: left;
+	color: #0c61a0;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.Pagination_list{
+	padding: 0px;
+}
+
+.pg_select{
+}
+
+.numofpage_label{
+	float: left;
+	margin: 0px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.numofpage{
+	float: left;
+	width: 64px;
+	height: 20px !important;
+	padding: 0px;
+	margin-right: 8px;	
+	margin-top: 4px;
+	margin-bottom: 4px;	
+}
+
+.pg_current_page{
+	float: left;
+	margin-right: 8px;	
+	margin-top: 4px;
+	margin-bottom: 4px;	
+}
+
+.pg_total_page{
+	float: left;
+	margin-right: 8px;	
+	margin-top: 4px;
+	margin-bottom: 4px;	
+}
+
+.pagination{
+	margin-top: 4px;
+	margin-bottom: 4px;		
+}

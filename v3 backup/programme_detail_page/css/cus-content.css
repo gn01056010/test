@@ -1,0 +1,196 @@
+.Content_region{
+	margin: 0px;
+}
+
+.Content_main_point{
+	box-shadow: rgb(127,127,127) 2px 4px 8px;
+	border: solid 1px #C6C6C6;	
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#eaeaea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#eaeaea 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */	
+}
+
+.Programme_detail_icon_title{
+	color: #001753;
+	font-weight: bold;
+}
+
+.Programme_detail_icon_subjectarea{
+	color: #999;
+}
+
+.Programme_detail_institution{
+	color: #999;
+}
+
+.Programme_detail_icon_list{}
+
+
+.Content_box_header{
+	box-shadow: rgb(127,127,127) 2px 4px 8px;
+	border: solid 1px #C6C6C6;
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f7f7f7 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f7f7f7 0%,#cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f7f7f7 0%,#cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f7f7f7 0%,#cccccc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	cursor: pointer; 
+}
+
+.Content_box_body{
+	box-shadow: rgb(127,127,127) 2px 4px 8px;
+	border: solid 1px #C6C6C6;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+.Content_padding{
+	padding-bottom: 10px;
+}
+
+.Content_box_header > div{
+	padding: 12px;
+	font-weight: bold;
+}
+
+.Content_left{
+	padding-top: 2px;
+	padding-left: 20px;
+	padding-right: 2px;
+}
+
+.Content_left > span{
+	  font-weight: bold;
+}
+
+.Content_right{
+	padding-left: 20px;
+	padding-bottom: 7px;	
+}
+
+.Mark{
+	float: left;
+	padding-top: 3px;
+}
+
+.Line{
+	width: 100%; 
+	height:1px; 
+	border-bottom: solid 1px rgb(0,0,0);
+}
+
+.OEE{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.OEE > .row{
+	padding-bottom: 5px;
+}
+
+.Captcha_img{
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.Captcha_refresh_btn{
+	height: 50px;
+	width: 100px;
+	margin-bottom: 5px;
+}
+
+.Captcha_audio{
+	width: 100%;
+}
+
+.Captcha_code_text{
+	margin-bottom: 5px;
+}
+
+.Captcha_submit{
+}
+
+.Special_offer_region{
+	float: left;
+	padding: 5px;
+	background: -webkit-gradient(linear, left top, right bottom, from(#ddd), color-stop(0.25, #ddd), color-stop(0.25, white), color-stop(0.5, white), color-stop(0.5, #ddd), color-stop(0.75, #ddd), color-stop(0.75, white), to(white)); 
+	background: -moz-linear-gradient(-45deg, #ddd 25%, white 25%, white 50%, #ddd 50%, #ddd 75%, white 75%, white); 
+	background: linear-gradient(-45deg, #ddd 25%, white 25%, white 50%, #ddd 50%, #ddd 75%, white 75%, white); 
+	background-size: 2px 2px;	
+}
+
+.Special_offer_icon{
+	color: gold;
+}
+
+.Special_offer_title{
+	  font-weight: bold;
+}
+
+.Special_offer_content{
+	float: left;
+}
+
+.Apply_online_div{
+	float: right;
+}
+
+@media screen and (min-width: 501px){
+	.Content_main_point_left{
+		float: left;
+		width: 20%;
+		padding-top: 10px;
+		padding-bottom: 10px;	
+	}
+
+	.Content_main_point_right{
+		float: left;
+		width: 80%;
+		padding-left: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;		
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px){
+	.Content_main_point_left{
+		float: left;
+		width: 30%;
+		padding-top: 15px;
+		padding-bottom: 15px;	
+	}
+
+	.Content_main_point_right{
+		float: left;
+		width: 70%;
+		padding-left: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;		
+	}
+}
+
+@media screen and (max-width: 400px){
+	.Content_main_point_left{
+		float: left;
+		width: 35%;
+		padding-top: 30px;
+		padding-bottom: 30px;	
+	}
+
+	.Content_main_point_right{
+		float: left;
+		width: 65%;
+		padding-left: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;		
+	}
+}

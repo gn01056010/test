@@ -1,0 +1,28 @@
+.Top_subjectarea_region{
+	margin: 0px;
+}
+
+.Top_subjectarea_box{
+	padding: 0px;
+}
+
+.Top_subjectarea_box > a{
+	white-space: pre-wrap;
+}
+
+
+.Top_subjectarea_box > .btn-cus-default{
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+	font-size: 14px;
+	border-radius: 0;
+}
+
+.Top_subjectarea_box > .btn-cus-default:hover{
+	color: #333;
+	background-color: #ddd;
+	border-color: #ccc;
+	font-size: 14px;
+	border-radius: 0;
+}

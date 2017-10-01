@@ -1,0 +1,6 @@
+.member_box{
+}
+
+.member_box > div > a > .member_icon{
+	  height: 54px;
+}
